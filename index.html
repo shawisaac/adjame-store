@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjame</title>
+    <script src="js/products.js" defer></script>
+    <script src="js/app.js" defer></script>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#collections">collections</a></li>
+            <li><a href="#categories.html">categories</a></li>
+            <li><a href="#contact.html">Contact</a></li>
+        </ul>
+        <h1>Adjamé<span>.</span></h1>
+        <div>
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass" id="search-icon"></i>
+                <div class="search-box" id="search-box">
+                    <input
+                       type="text" 
+                       id="search-input"
+                       placeholder="Rechercher un produit..."
+                    >
+                    <i class="fa-solid fa-xmark" id="close-search"></i>
+               </div>
+            </div>
+            <div class="cart-icon">
+                <a href="cart.html">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </a>
+                <span id="cart-count">0</span>
+            </div>
+            <i class="fa-regular fa-heart"></i>
+            <i class="fa-regular fa-circle-user"></i>
+        </div>
+    </nav>
+    <section>
+        <div class="coteD">
+            <div class="top">
+                <div>
+                    <h1>Ton style c'est<br>ton identité.</h1>
+                    <p>Des études scientifiques montrent que les vêtements <br>fonctionnent comme une langue visuelle : ils transmettent des messages sur <br>qui nous sommes (personnalité, goûts, valeurs) avant même que nous parlions.</p>
+                </div>
+                <div class="img">
+                    <img src="images/mod_v1-removebg-preview.png" alt="t-shirt violet">
+                    <img src="images/mod_bg1-removebg-preview.png" alt="" id="ts-marron">
+                    <img src="images/mod_w1_fts-removebg-preview.png" alt="">
+                    <img src="images/mod_w1-removebg-preview.png" alt="">
+                    <img src="images/mod_w2-removebg-preview.png" alt="">
+                    <img src="images/mod_w3-removebg-preview.png" alt="">
+                    <img src="images/mod_b1-removebg-preview.png" alt="">
+                    <img src="images/mod_b2-removebg-preview.png" alt="">
+                    <img src="images/mod_b3-removebg-preview.png" alt="">
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="produit">
+                    <div class="bulle img1">
+                        <img src="images/mod_1-removebg-preview.png" alt="">
+                        <h3 class="prix">17.050 <span>XOF</span></h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="bulle img2">
+                        <img src="images/mod_2-removebg-preview.png" alt="">
+                        <h3 class="prix">12.700 <span>XOF</span></h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                    <div class="bulle img3">
+                        <img src="images/mod_3-removebg-preview.png" alt="">
+                        <h3 class="prix">9.980 <span>XOF</span></h3>
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="detail-p">
+                    <h1>T-shirt imprime a motifs unique</h1>
+                    <h1 class="prix">19.389 <span>XOF</span></h1>
+                    <div class="couleur">
+                        <input type="radio" name="color" id="beige">
+                        <label for="beige" class="beige">.</label>
+                        <input type="radio" name="color" id="noir">
+                        <label for="noir" class="noir">.</label>
+                        <input type="radio" name="color" id="violet">
+                        <label for="violet" class="violet">.</label>
+                    </div>
+                    <div class="taille">
+                        <input type="radio" id="XS" name="size">
+                        <label for="XS">
+                            <h2>XS</h2>
+                        </label>
+
+                        <input type="radio" id="S" name="size">
+                        <label for="S">
+                            <h2>S</h2>
+                        </label>
+
+                        <input type="radio" id="M" name="size">
+                        <label for="M">
+                            <h2>M</h2>
+                        </label>
+
+                        <input type="radio" id="L" name="size">
+                        <label for="L">
+                            <h2>L</h2>
+                        </label>
+
+                        <input type="radio" id="XL" name="size">
+                        <label for="XL">
+                            <h2>XL</h2>
+                        </label>
+
+                        <input type="radio" id="XXL" name="size">
+                        <label for="XXL">
+                            <h2>XXL</h2>
+                        </label>
+                        
+                    </div>
+                    <button type="submit">Add to panier</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="collections" id="collections">
+        <h1>collections</h1>
+        <div class="freedom" id="products-container">
+            <h2>Liberté</h2>
+        </div>
+
+        <div class="forum freedom">
+            <h2>Forum</h2>
+            <div class="rum free">
+                <div class="free1">
+                    <i class="fa-regular fa-heart"></i>
+                    <img src="images/free9.jpg" alt="">
+                    <h4>T-shirt 100% cotton avec impression "JESUS LOVE YOU"</h4>
+                </div>
+                <div class="free2">
+                    <h3 class="prix"><del>75.000 XOF</del><br><span>26.075 XOF</span></h3>
+                    <div class="couleur color">
+                        <input type="radio" name="color" id="bleu9">
+                        <label for="bleu9" class="bleun">.</label>
+                        <input type="radio" name="color" id="noir9">
+                        <label for="noir9" class="noir">.</label>
+                    </div>
+                </div>
+                <button type="submit">Add to panier</button>
+            </div>
+            <div class="rum free">
+                <div class="free1">
+                    <p>-50%</p>
+                    <i class="fa-regular fa-heart"></i>
+                    <img src="images/free10.jpg" alt="">
+                    <h4>T-shirt 100% cotton avec impression "DIVERSITY"</h4>
+                </div>
+                <div class="free2">
+                    <h3 class="prix"><del>75.000 XOF</del><br><span>26.075 XOF</span></h3>
+                    <div class="couleur color">
+                        <input type="radio" name="color" id="beige2">
+                        <label for="beige2" class="beige">.</label>
+                    </div>
+                </div>
+                <button type="submit">Add to panier</button>
+            </div>
+            <div class="rum free">
+                <div class="free1">
+                    <i class="fa-regular fa-heart"></i>
+                    <img src="images/free11.jpg" alt="">
+                    <h4> Pantalon des morgor de "HIMRA"</h4>
+                </div>
+                <div class="free2">
+                    <h3 class="prix"><del>75.000 XOF</del><br><span>26.075 XOF</span></h3>
+                    <div class="couleur color">
+                        <input type="radio" name="color" id="beige3">
+                        <label for="beige3" class="beige">.</label>
+                        <input type="radio" name="color" id="noir3">
+                        <label for="noir3" class="noir">.</label>
+                        <input type="radio" name="color" id="violet3">
+                        <label for="violet3" class="violet">.</label>
+                    </div>
+                </div>
+                <button type="submit">Add to panier</button>
+            </div>
+            <div class="rum free">
+                <div class="free1">
+                    <p>-50%</p>
+                    <i class="fa-regular fa-heart"></i>
+                    <img src="images/free12.jpg" alt="">
+                    <h4> Pantalon des morgor de "ASAKE"</h4>
+                </div>
+                <div class="free2">
+                    <h3 class="prix"><del>75.000 XOF</del><br><span>26.075 XOF</span></h3>
+                    <div class="couleur color">
+                        <input type="radio" name="color" id="beige4">
+                        <label for="beige4" class="beige">.</label>
+                        <input type="radio" name="color" id="violet4">
+                        <label for="violet4" class="blanc">.</label>
+                        <input type="radio" name="color" id="noir4">
+                        <label for="noir4" class="noir">.</label>
+                        
+                    </div>
+                </div>
+                <button type="submit">Add to panier</button>
+            </div>
+            <div class="rum free">
+                <div class="free1">
+                    <p>-50%</p>
+                    <i class="fa-regular fa-heart"></i>
+                    <img src="images/free13.jpg" alt="">
+                    <h4>T-shirt 100% cotton avec impression "Homme"</h4>
+                </div>
+                <div class="free2">
+                    <h3 class="prix"><del>75.000 XOF</del><br><span>26.075 XOF</span></h3>
+                    <div class="couleur color">
+                        <input type="radio" name="color" id="beige5">
+                        <label for="beige5" class="gris">.</label>
+                        <input type="radio" name="color" id="noir5">
+                        <label for="noir5" class="noir">.</label>
+                        <input type="radio" name="color" id="violet5">
+                        <label for="violet5" class="vert">.</label>
+                    </div>
+                </div>
+                <button type="submit">Add to panier</button>
+            </div>
+            <div class="rum free">
+                <div class="free1">
+                    <i class="fa-regular fa-heart"></i>
+                    <img src="images/free14.jpg" alt="">
+                    <h4>Complet en "LATEYA"</h4>
+                </div>
+                <div class="free2">
+                    <h3 class="prix"><del>75.000 XOF</del><br><span>26.075 XOF</span></h3>
+                    <div class="couleur color">
+                        <input type="radio" name="color" id="noir6">
+                        <label for="noir6" class="noir">.</label>
+                        <input type="radio" name="color" id="violet6">
+                        <label for="violet6" class="violet">.</label>
+                        <input type="radio" name="color" id="blanc6">
+                        <label for="blanc6" class="blanc">.</label>
+                    </div>
+                </div>
+                <button type="submit">Add to panier</button>
+            </div>
+            <div class="rum free">
+                <div class="free1">
+                    <p>-3%</p>
+                    <i class="fa-regular fa-heart"></i>
+                    <img src="images/free15.jpg" alt="">
+                    <h4>Maillot de Rugby avec impression " JESUS CHRIST"</h4>
+                </div>
+                <div class="free2">
+                    <h3 class="prix"><del>75.000 XOF</del><br><span>26.075 XOF</span></h3>
+                    <div class="couleur color">
+                        <input type="radio" name="color" id="beige7">
+                        <label for="beige7" class="beige">.</label>
+                        <input type="radio" name="color" id="noir7">
+                        <label for="noir7" class="noir">.</label>
+                        <input type="radio" name="color" id="violet7">
+                        <label for="violet7" class="violet">.</label>
+                    </div>
+                </div>
+                <button type="submit">Add to panier</button>
+            </div>
+            <div class="rum free">
+                <div class="free1">
+                    <p>-22%</p>
+                    <i class="fa-regular fa-heart"></i>
+                    <img src="images/free16.jpg" alt="">
+                    <h4> Pantalon a motif "ZIG-ZAG"</h4>
+                </div>
+                <div class="free2">
+                    <h3 class="prix"><del>75.000 XOF</del><br><span>26.075 XOF</span></h3>
+                    <div class="couleur color">
+                        <input type="radio" name="color" id="beige8">
+                        <label for="beige8" class="beige">.</label>
+                        <input type="radio" name="color" id="noir8">
+                        <label for="noir8" class="noir">.</label>
+                        <input type="radio" name="color" id="violet8">
+                        <label for="violet8" class="violet">.</label>
+                    </div>
+                </div>
+                <button type="submit">Add to panier</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div>
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-whatsapp"></i>
+            <i class="fa-brands fa-tiktok"></i>
+        </div>
+        <p>Propulsé par AURA DIGITAL &copy;</p>
+    </footer>
+</body>
